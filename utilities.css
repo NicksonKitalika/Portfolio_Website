@@ -1,0 +1,29 @@
+/* utilities.css */
+
+/* Alligning text */
+.text-center {
+    text-align: center;
+  }
+  
+  /* Implementing CSS for buttons */
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Applying 'px', 'em' and 'rem' */
+  .container {
+    width: 80%;
+    margin: 0 auto; /* px */
+    padding: 2rem; /* rem */
+    font-size: 1.2em; /* em */
+  }
+  
